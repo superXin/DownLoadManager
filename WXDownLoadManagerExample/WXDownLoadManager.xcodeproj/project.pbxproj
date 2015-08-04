@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1B548641B70B68F002D4768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B548631B70B68F002D4768 /* main.m */; };
+		B1B5486F1B70B68F002D4768 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B5486E1B70B68F002D4768 /* Images.xcassets */; };
+		B1B548721B70B68F002D4768 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1B548701B70B68F002D4768 /* LaunchScreen.xib */; };
+		B1B5487E1B70B690002D4768 /* WXDownLoadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B5487D1B70B690002D4768 /* WXDownLoadManagerTests.m */; };
+		B1B5488E1B70B857002D4768 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B5488A1B70B857002D4768 /* AppDelegate.m */; };
+		B1B5488F1B70B857002D4768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B5488B1B70B857002D4768 /* Main.storyboard */; };
+		B1B548901B70B857002D4768 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B5488D1B70B857002D4768 /* ViewController.m */; };
+		B1B548941B70B863002D4768 /* WXTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B548931B70B863002D4768 /* WXTaskViewController.m */; };
+		B1B548981B70B870002D4768 /* WXManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B548971B70B870002D4768 /* WXManagerViewController.m */; };
+		B1B5489C1B70B87A002D4768 /* WXManUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B5489B1B70B87A002D4768 /* WXManUseViewController.m */; };
+		B1B548A51B70B887002D4768 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B548A01B70B887002D4768 /* NSString+Hash.m */; };
+		B1B548A61B70B887002D4768 /* WXDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B548A21B70B887002D4768 /* WXDownLoadManager.m */; };
+		B1B548A71B70B887002D4768 /* WXDownLoadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B548A41B70B887002D4768 /* WXDownLoadTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1B548781B70B690002D4768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B548561B70B68F002D4768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B5485D1B70B68F002D4768;
+			remoteInfo = WXDownLoadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1B5485E1B70B68F002D4768 /* WXDownLoadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXDownLoadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B548621B70B68F002D4768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B548631B70B68F002D4768 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1B5486E1B70B68F002D4768 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		B1B548711B70B68F002D4768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B1B548771B70B690002D4768 /* WXDownLoadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXDownLoadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B5487C1B70B690002D4768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B5487D1B70B690002D4768 /* WXDownLoadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXDownLoadManagerTests.m; sourceTree = "<group>"; };
+		B1B548891B70B857002D4768 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1B5488A1B70B857002D4768 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1B5488B1B70B857002D4768 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B1B5488C1B70B857002D4768 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1B5488D1B70B857002D4768 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1B548921B70B863002D4768 /* WXTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTaskViewController.h; sourceTree = "<group>"; };
+		B1B548931B70B863002D4768 /* WXTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTaskViewController.m; sourceTree = "<group>"; };
+		B1B548961B70B870002D4768 /* WXManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXManagerViewController.h; sourceTree = "<group>"; };
+		B1B548971B70B870002D4768 /* WXManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXManagerViewController.m; sourceTree = "<group>"; };
+		B1B5489A1B70B87A002D4768 /* WXManUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXManUseViewController.h; sourceTree = "<group>"; };
+		B1B5489B1B70B87A002D4768 /* WXManUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXManUseViewController.m; sourceTree = "<group>"; };
+		B1B5489F1B70B887002D4768 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		B1B548A01B70B887002D4768 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		B1B548A11B70B887002D4768 /* WXDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDownLoadManager.h; sourceTree = "<group>"; };
+		B1B548A21B70B887002D4768 /* WXDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDownLoadManager.m; sourceTree = "<group>"; };
+		B1B548A31B70B887002D4768 /* WXDownLoadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDownLoadTask.h; sourceTree = "<group>"; };
+		B1B548A41B70B887002D4768 /* WXDownLoadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDownLoadTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1B5485B1B70B68F002D4768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B548741B70B690002D4768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1B548551B70B68F002D4768 = {
+			isa = PBXGroup;
+			children = (
+				B1B548601B70B68F002D4768 /* WXDownLoadManager */,
+				B1B5487A1B70B690002D4768 /* WXDownLoadManagerTests */,
+				B1B5485F1B70B68F002D4768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1B5485F1B70B68F002D4768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B5485E1B70B68F002D4768 /* WXDownLoadManager.app */,
+				B1B548771B70B690002D4768 /* WXDownLoadManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B548601B70B68F002D4768 /* WXDownLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+				B1B548881B70B857002D4768 /* Main */,
+				B1B548911B70B863002D4768 /* Task(单任务) */,
+				B1B548951B70B870002D4768 /* Manager(多任务) */,
+				B1B548991B70B87A002D4768 /* Manager(简单使用) */,
+				B1B5489D1B70B887002D4768 /* WXDownLoadManager */,
+				B1B548611B70B68F002D4768 /* Supporting Files */,
+			);
+			path = WXDownLoadManager;
+			sourceTree = "<group>";
+		};
+		B1B548611B70B68F002D4768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1B548621B70B68F002D4768 /* Info.plist */,
+				B1B548631B70B68F002D4768 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1B5487A1B70B690002D4768 /* WXDownLoadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B5487D1B70B690002D4768 /* WXDownLoadManagerTests.m */,
+				B1B5487B1B70B690002D4768 /* Supporting Files */,
+			);
+			path = WXDownLoadManagerTests;
+			sourceTree = "<group>";
+		};
+		B1B5487B1B70B690002D4768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1B5487C1B70B690002D4768 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1B548881B70B857002D4768 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B1B5486E1B70B68F002D4768 /* Images.xcassets */,
+				B1B548701B70B68F002D4768 /* LaunchScreen.xib */,
+				B1B548891B70B857002D4768 /* AppDelegate.h */,
+				B1B5488A1B70B857002D4768 /* AppDelegate.m */,
+				B1B5488B1B70B857002D4768 /* Main.storyboard */,
+				B1B5488C1B70B857002D4768 /* ViewController.h */,
+				B1B5488D1B70B857002D4768 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B1B548911B70B863002D4768 /* Task(单任务) */ = {
+			isa = PBXGroup;
+			children = (
+				B1B548921B70B863002D4768 /* WXTaskViewController.h */,
+				B1B548931B70B863002D4768 /* WXTaskViewController.m */,
+			);
+			path = "Task(单任务)";
+			sourceTree = "<group>";
+		};
+		B1B548951B70B870002D4768 /* Manager(多任务) */ = {
+			isa = PBXGroup;
+			children = (
+				B1B548961B70B870002D4768 /* WXManagerViewController.h */,
+				B1B548971B70B870002D4768 /* WXManagerViewController.m */,
+			);
+			path = "Manager(多任务)";
+			sourceTree = "<group>";
+		};
+		B1B548991B70B87A002D4768 /* Manager(简单使用) */ = {
+			isa = PBXGroup;
+			children = (
+				B1B5489A1B70B87A002D4768 /* WXManUseViewController.h */,
+				B1B5489B1B70B87A002D4768 /* WXManUseViewController.m */,
+			);
+			path = "Manager(简单使用)";
+			sourceTree = "<group>";
+		};
+		B1B5489D1B70B887002D4768 /* WXDownLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+				B1B5489E1B70B887002D4768 /* MD5 */,
+				B1B548A11B70B887002D4768 /* WXDownLoadManager.h */,
+				B1B548A21B70B887002D4768 /* WXDownLoadManager.m */,
+				B1B548A31B70B887002D4768 /* WXDownLoadTask.h */,
+				B1B548A41B70B887002D4768 /* WXDownLoadTask.m */,
+			);
+			path = WXDownLoadManager;
+			sourceTree = "<group>";
+		};
+		B1B5489E1B70B887002D4768 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				B1B5489F1B70B887002D4768 /* NSString+Hash.h */,
+				B1B548A01B70B887002D4768 /* NSString+Hash.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1B5485D1B70B68F002D4768 /* WXDownLoadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B548811B70B690002D4768 /* Build configuration list for PBXNativeTarget "WXDownLoadManager" */;
+			buildPhases = (
+				B1B5485A1B70B68F002D4768 /* Sources */,
+				B1B5485B1B70B68F002D4768 /* Frameworks */,
+				B1B5485C1B70B68F002D4768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXDownLoadManager;
+			productName = WXDownLoadManager;
+			productReference = B1B5485E1B70B68F002D4768 /* WXDownLoadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1B548761B70B690002D4768 /* WXDownLoadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B548841B70B690002D4768 /* Build configuration list for PBXNativeTarget "WXDownLoadManagerTests" */;
+			buildPhases = (
+				B1B548731B70B690002D4768 /* Sources */,
+				B1B548741B70B690002D4768 /* Frameworks */,
+				B1B548751B70B690002D4768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B548791B70B690002D4768 /* PBXTargetDependency */,
+			);
+			name = WXDownLoadManagerTests;
+			productName = WXDownLoadManagerTests;
+			productReference = B1B548771B70B690002D4768 /* WXDownLoadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1B548561B70B68F002D4768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = zwx;
+				TargetAttributes = {
+					B1B5485D1B70B68F002D4768 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B1B548761B70B690002D4768 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B1B5485D1B70B68F002D4768;
+					};
+				};
+			};
+			buildConfigurationList = B1B548591B70B68F002D4768 /* Build configuration list for PBXProject "WXDownLoadManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1B548551B70B68F002D4768;
+			productRefGroup = B1B5485F1B70B68F002D4768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B5485D1B70B68F002D4768 /* WXDownLoadManager */,
+				B1B548761B70B690002D4768 /* WXDownLoadManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1B5485C1B70B68F002D4768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B5488F1B70B857002D4768 /* Main.storyboard in Resources */,
+				B1B548721B70B68F002D4768 /* LaunchScreen.xib in Resources */,
+				B1B5486F1B70B68F002D4768 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B548751B70B690002D4768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1B5485A1B70B68F002D4768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B548A61B70B887002D4768 /* WXDownLoadManager.m in Sources */,
+				B1B548A51B70B887002D4768 /* NSString+Hash.m in Sources */,
+				B1B548981B70B870002D4768 /* WXManagerViewController.m in Sources */,
+				B1B548901B70B857002D4768 /* ViewController.m in Sources */,
+				B1B5488E1B70B857002D4768 /* AppDelegate.m in Sources */,
+				B1B548941B70B863002D4768 /* WXTaskViewController.m in Sources */,
+				B1B5489C1B70B87A002D4768 /* WXManUseViewController.m in Sources */,
+				B1B548A71B70B887002D4768 /* WXDownLoadTask.m in Sources */,
+				B1B548641B70B68F002D4768 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B548731B70B690002D4768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B5487E1B70B690002D4768 /* WXDownLoadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1B548791B70B690002D4768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B5485D1B70B68F002D4768 /* WXDownLoadManager */;
+			targetProxy = B1B548781B70B690002D4768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1B548701B70B68F002D4768 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B548711B70B68F002D4768 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1B5487F1B70B690002D4768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1B548801B70B690002D4768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1B548821B70B690002D4768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXDownLoadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1B548831B70B690002D4768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXDownLoadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1B548851B70B690002D4768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WXDownLoadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXDownLoadManager.app/WXDownLoadManager";
+			};
+			name = Debug;
+		};
+		B1B548861B70B690002D4768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WXDownLoadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXDownLoadManager.app/WXDownLoadManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1B548591B70B68F002D4768 /* Build configuration list for PBXProject "WXDownLoadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B5487F1B70B690002D4768 /* Debug */,
+				B1B548801B70B690002D4768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B548811B70B690002D4768 /* Build configuration list for PBXNativeTarget "WXDownLoadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B548821B70B690002D4768 /* Debug */,
+				B1B548831B70B690002D4768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B1B548841B70B690002D4768 /* Build configuration list for PBXNativeTarget "WXDownLoadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B548851B70B690002D4768 /* Debug */,
+				B1B548861B70B690002D4768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1B548561B70B68F002D4768 /* Project object */;
+}
