@@ -63,7 +63,7 @@
   
   方法
   
-  ```
+  ```objc
   //开始下载
 -(void)start;
 //暂停下载
@@ -75,7 +75,7 @@
   
   代理方法
   
-  ```
+  ```objc
   //完成下载时
 -(void)WXDownLoadTaskDidFinishDownLoad:(WXDownLoadTask *)task;
 //任务开始
@@ -91,7 +91,7 @@
   
   初始化方法
   
-  ```
+  ```objc
   //获取默认对象(单粒)
 + (instancetype)sharedManager;
 
@@ -99,7 +99,7 @@
   
   属性
   
-  ```
+  ```objc
   /**
  *  存放WXDownLoadTask对象的数组,用来管理下载任务，可以批量修改下载任务的状态
  * 所有任务
@@ -116,7 +116,7 @@
   
   方法 
   
-  ```
+  ```objc
   //添加任务(添加后需要调用startAllTask开始下载)
 -(void)addTask:(WXDownLoadTask *)task;
 
@@ -131,7 +131,7 @@
   
   代理方法
   
-  ```
+  ```objc
   //当添加某个task的时候
 -(void)WXDownLoadManager:(WXDownLoadManager *)manager addTask:(WXDownLoadTask *)task;
 
