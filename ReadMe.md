@@ -1,5 +1,5 @@
 ## WXDownLoadManager
-### 用于任何文件的下载，对下载任务统一化管理，实时监控任务状态，支持断点传续
+### 用于任何文件的下载，对下载任务统一化管理，实时监控任务状态，通过客户端实现断点传续
 
 ![试例](http://ww3.sinaimg.cn/large/9ac1c132gw1euqu0fhemjg20aa0j2hdu.gif)
 
